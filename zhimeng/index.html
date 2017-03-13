@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/index.css" />
+	
+	<body>
+		<div id="header">
+			<div class="header_logo">
+				<img src="images/logo.png" alt="" />
+			</div>
+			<div class="header_phone">
+				<p>咨询热线(工作时间：早9:00-晚6:00)</p>
+				<img src="images/phone.png" alt="" />
+				<ul class="header_ul">
+					<li><a href="#">项目开发</a>|</li>
+					<li><a href="#">网站地图</a>|</li>
+					<li><a href="#">人才招聘</a>|</li>
+					<li><a href="#">关于我们</a>|</li>
+					<li><a href="#">人才外派</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="nav">
+			<ul class="nav_ul">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">热点活动</a></li>
+				<li><a href="#">项目实训</a></li>
+				<li><a href="#">高端课程</a></li>
+				<li><a href="#">冷门课程</a></li>
+				<li><a href="#">基础课程</a></li>
+				<li><a href="#">培训案例</a></li>
+				<li><a href="#">技术论坛</a></li>
+				<li><a href="#">专家团队</a></li>
+			</ul>
+		</div>
+		<!--内容-->
+		<div id="content">
+			<!--左边的内容-->
+			<div class="content_left">
+				<div class="course">
+					<img src="images/kctx.gif" alt="" />
+					<ul class="course_ul">
+						
+					</ul>
+					<div class="content_div">
+						1111112222
+					</div>
+				</div>
+				
+				<div class="content_img">
+					<img src="images/left_img.png" alt="" />
+					<img src="images/left_img1.png" alt="" />
+					<img src="images/left_img2.png" alt="" />
+					<img src="images/left_img1.png" alt="" />
+				</div>
+			</div>
+			<!--右边的内容-->
+			<div class="content_right">
+				<!--轮播图内容-->
+				<div class="flexslider">
+				  <ul class="slides">
+				    <li style="background:url(images/banner2.png) 50% 0 no-repeat;"></li>
+				    <li style="background:url(images/banner3.png) 50% 0 no-repeat;"></li>
+				    <li style="background:url(images/banner1.png) 50% 0 no-repeat;"></li>
+				    <li style="background:url(images/banner2.png) 50% 0 no-repeat;"></li>
+				    <li style="background:url(images/banner2.png) 50% 0 no-repeat;"></li>
+				  </ul>
+				</div>      
+
+				<!--最新开课的内容-->
+				<div class="case">
+					<ul id="tab">
+						<li id="tab1" onclick="showTab('content1')">最新开课</li>
+						<li id="tab2" onclick="showTab('content2')">新闻动态</li>
+						<li id="tab3" onclick="showTab('content3')">企业内训</li>
+						<li id="tab4" onclick="showTab('content4')">培训案例</li>
+					</ul>
+					<div id="container">
+						<div id="content1" style="z-index: 1;">
+							
+						</div>
+						<div id="content2">
+							222222
+						</div>
+						<div id="content3">
+							33333
+						</div>
+						<div id="content4">
+							44444
+						</div>
+					</div>
+				</div>
+				<!--热门课程-->
+				<div class="hot_course">
+					<div class="hot_top">
+						<h3>热门课程</h3>
+						<a href="#">更多>></a>
+						<ul class="hot_ul">
+							<!--<li><img src="images/8.gif" alt="" /><a href="#">在4月裁决</a></li>-->
+						</ul>
+						
+					</div>
+				</div>
+				<!--技术讲堂-->
+				<div class="technology">
+					<div class="tech_top">
+						<h3>技术讲堂</h3>
+						<a href="#">更多>></a>
+					</div>
+					<ul class="technology_ul">
+						<!--<li><img src="images/8.gif" alt="" /><a href="#">甲骨文和谷歌java版权纠纷将在4月裁决</a><span>2012-03-15</span></li>-->
+					
+					</ul>
+				</div>
+				<!--热门讲师-->
+				<div class="hot_teacher">
+					<div class="hot_teacher_top">
+						<h3>热门讲师</h3>
+						<a href="#">更多>></a>
+					</div>
+		
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="foot">
+				<a href="#">上海IT培训 </a><a href="#">天津IT培训 </a><a href="#">广州IT培训 </a><a href="#">英国留学 </a><a href="#">中国人才网 </a>
+				<a href="#">澳洲留学网</a><a href="#">招聘 </a><a href="#">北京自考网 </a><a href="#">通信人才网 </a><a href="#">湖南大学自考 </a>
+				<a href="#">新东方网</a><a href="#">上海IT培训 </a><a href="#">天津IT培训 </a><a href="#">广州IT培训 </a><a href="#">英国留学 </a><a href="#">中国人才网 </a>
+				<a href="#">澳洲留学网</a><a href="#">招聘 </a><a href="#">北京自考网 </a><a href="#">通信人才网 </a><a href="#">湖南大学自考 </a>
+				<a href="#">新东方网</a><a href="#">海龟网</a>
+				<p>北京总部：北京市南三环路大陆写字楼A203室</p>
+				<p>联系人：杨老师 联系电话：52850976</p>
+				<p>版权所有：北京智盟科技有限责任公司 京ICP备：258000886-1号</p>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-1.11.0.min.js"></script>             
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+//		$.get('index.json', function(data) {
+//				//console.log(data)
+//				$(data).each(function(i,dom){
+//					var li = '<li>\
+//								<a href="#">'+dom.info+'</a>\
+//								<img src="images/'+dom.img+'" />\
+//							</li>';
+//					$('.course ul').append(li);		
+//				})
+//			}, 'json');
+		//热门课程
+//		$.get('hot_top.json', function(data) {
+//			console.log(data);
+//				$(data).each(function(i,dom){
+//					var li = '<li>\
+//								<img src="images/'+dom.img1+'"/>\
+//								<a href="#">'+dom.title+'</a>\
+//							</li>';
+//					$('.hot_top ul').append(li);		
+//				})
+//			}, 'json');
+			//技术讲堂
+//			$.get('technology.json', function(data) {
+//				//console.log(data)
+//				$(data).each(function(i,dom){
+//					var li='<li>\
+//					<img src="images/8.gif" alt="" />\
+//					<a href="#">'+dom.title+'</a>\
+//					<span>'+dom.time+'</span>\
+//					</li>';
+//					$('.technology ul').append(li);		
+//				})
+//			}, 'json');
+			//热门讲师
+//			$.get('hot_teacher.json', function(data) {
+//				//console.log(data)
+//				$(data).each(function(i,dom){
+//					var div='<div class="hot_teacher_bom">\
+//							<div class="hot_teacher_img">\
+//							<img src="images/'+dom.img+'" alt="" />\
+//						</div>\
+//						<div class="intro">\
+//							<h4>'+dom.name+'</h4>\
+//							<p>'+dom.content+'</p>\
+//						</div>\
+//						</div>';
+//					$('.hot_teacher').append(div);		
+//				})
+//			}, 'json');
+	</script>
+</html>

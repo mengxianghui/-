@@ -1,0 +1,304 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+#header,#nav,#banner,#content,#footer>div{
+	width: 960px;
+	margin: 0 auto;
+}
+#header{
+	height: 100px;
+}
+.header_logo{
+	float: left;
+	padding-top: 25px;
+}
+.header_phone{
+	float: right;
+	font-size: 12px;
+	padding-top: 20px;
+}
+.header_phone>img{
+	padding-right;
+	margin-left: 35px;
+}
+.header_phone>p{
+	margin-bottom: 5px;
+	margin-left: 65px;
+}
+.header_ul{
+	margin-top: 5px;
+}
+.header_ul>li{
+	float: left;
+}
+.header_ul li a{
+	color: black;
+}
+#nav{
+	height: 49px;
+	background: url(../images/navbg.png) repeat-x;
+	min-width: 960px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+.nav_ul{
+	width: 970px;
+	margin: 0 auto;
+}
+.nav_ul li{
+	float: left;
+	padding-left: 30px;
+	line-height: 49px;
+}
+.nav_ul li a{
+	display: block;
+	color: white;
+	font-weight: 800;
+	padding: 0 5px;
+}
+.nav_ul li a:hover{
+	background:#000;
+}
+#banner{
+	height: 190px;
+	margin-bottom: 8px;
+}
+#content{
+	height: 1195px;
+}
+.content_left{
+	width: 680px;
+	height: 1195px;
+	border: 1px solid #CCC;
+	float: left;
+}
+.left_con{
+	height: 30px;
+	background: #d8d8d8;
+	line-height: 30px;
+}
+.left_con>a:first-child{
+	margin-left: 20px;
+}
+.content_left>p{
+	width: 650px;
+	margin: auto;
+	text-indent: 20px;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	line-height: 20px;
+}
+.content_left>h3{
+	text-indent: 20px;
+	margin-bottom: 15px;
+}
+.con_teacher{
+	width: 655px;
+	height: 165px;
+	border-bottom: 1px dashed #C9C9C9;
+	margin: auto;
+	margin-top: 5px;
+	
+	
+}
+.con_teacher_l{
+	width: 318px;
+	height: 155px;
+	float: left;
+	
+}
+.con_teacher_l>img{
+	display: block;
+	float: left;
+	padding-right: 3px;
+}
+.con_teacher_img2{
+	width: 210px;
+	height: 155px;
+	float: left;
+}
+.con_teacher_img2>h3{
+	margin-bottom: 5px;
+}
+
+.con_teacher_r{
+	float: left;
+	margin-left: 5px;
+}
+.page{
+	height: 67px;
+	width: 650px;
+	border-bottom: 1px dashed #C9C9C9;
+	margin:  auto;
+	line-height: 70px;
+}
+.page>a:first-child{
+	margin-left: 10px;
+}
+.page>a{
+	padding: 7px;
+	background: #C9C9C9;
+}
+.content_left_img{
+	margin-top: 5px;
+	border-bottom: 1px dashed #C9C9C9;
+	width: 660px;
+	margin: auto;
+}
+
+#article{
+	margin-top: 20px;
+}
+#article>h3{
+	margin-bottom: 10px;
+	text-indent: 10px;
+}
+#article>ul>li{
+	line-height: 25px;
+	font-size: 14px;
+}
+#article>ul>li{
+	width: 500px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+.content_right{
+		width: 270px;
+	height: 1030px;
+	/*background: violet;*/
+	float: right;
+}
+.hot_course{
+	width: 268px;
+	height: 245px;
+	border: 1px solid #C9C9C9;
+}
+
+.right_img{
+	margin: 8px 0 3px;
+}
+.hot_new{
+	width: 268px;
+	height: 245px;
+	border: 1px solid #C9C9C9;
+}
+.hot_top{
+	height: 30px;
+	background: #d8d8d8;
+	line-height: 36px;
+}
+.hot_top h3,.hot_teacher_top h3{
+	display: inline;
+	margin-left: 10px;
+}
+.hot_top>a,.hot_teacher_top>a{
+	color: #000;
+	font-weight: 600;
+	margin-left: 100px;
+}
+.hot_top li a{
+	font-size: 14px;
+}
+.hot_top li{
+	height: 24px;
+}
+.hot_top>ul>li>img{
+	vertical-align: middle;
+}
+.show{
+	width: 268px;
+	height: 253px;
+	border: 1px solid #C9C9C9;
+	margin: 8px 0;
+}
+
+
+.hot_teacher_bom{
+	height: 73px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.hot_teacher_top{
+	height: 30px;
+	background: #d8d8d8;
+	line-height: 36px;
+}
+.hot_teacher_img{
+	float: left;
+	margin-right: 5px;
+}
+.hot_teacher_img>img{
+	margin-top: 3px;
+}
+.intro>h4{
+	margin: 5px 0;
+}
+.intro>p{
+	font-size: 14px;
+}
+.hot_teacher_bom:last-child{
+	border: 0;
+}
+
+.massage{
+	height: 130px;
+	border: 1px solid #C9C9C9;
+}
+.massage_t{
+	font-size: 14px;
+	line-height: 30px;
+}
+.massage>p{
+	font-size: 14px;
+	font-family: arial;
+	margin: 10px 0;
+}
+#input{
+	height: 23px;
+	width: 140px;
+	margin-left: 20px;
+}
+#btn{
+	width: 50px;
+	height: 25px;
+}
+#footer{
+	margin-top: 35px;
+	width: 100%;
+	height: 205px;
+	border-top: 3px solid #c9c9c9;
+	background: #f7f7f7;
+}
+.foot{
+	width: 960px;
+	margin: 0 auto;
+}
+.foot>a{
+	font-family: "微软雅黑";
+	margin-bottom: 10px;
+}
+.foot p{
+	margin-top: 5px;
+	font-family: "微软雅黑";
+	font-weight: 700;
+}
